@@ -118,3 +118,11 @@ print(f"fun2(2,3) = {f2_op}")
 print(f"fun3(2,3) = {f3_op}")
 print(f"fun4({f1_op},{f2_op},{f3_op}) = {f4_op}")
 
+# Test the new functions
+f5_op = fun5(10, 2)
+f6_op = fun6(2, 3)
+f7_op = fun7([1, 2, 3, 4, 5])
+
+print(f"fun5(10,2) = {f5_op}")  # Should print 5.0
+print(f"fun6(2,3) = {f6_op}")   # Should print 8
+print(f"fun7([1,2,3,4,5]) = {f7_op}")  # Should print 3.0
